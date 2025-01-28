@@ -1,0 +1,36 @@
+h1 {
+    font-size: 100px;
+    text-align: center;
+    font-family: Helvetica;
+}
+
+h2 {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 45px;
+    color: red;
+    text-align: center;
+    font-family: Helvetica;
+    cursor: default;
+}
+
+.btncontainer {
+    text-align: center;
+}
+
+.buttons {
+    padding: 20px 15px;
+    color: white;
+    background-color: hsl(162, 73%, 63%);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.buttons:hover {
+   background-color: hsl(162, 51%, 65%);
+}
