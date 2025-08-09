@@ -13,10 +13,13 @@ decrease.onclick = function(){
 
 
         if(count < 0) {
-        count = ''
+        count = 0
         text.textContent = "0"
         text01.style.display = 'block';
-        setTimeout(() => text01.remove(), 3000)
+
+        setTimeout(() => {
+            text01.style.display = 'none';
+        }, 3000);
 }
 
     }
